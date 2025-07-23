@@ -3,8 +3,8 @@ import requests
 import time
 from telegram import Bot
 
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
-CHAT_ID = os.environ.get("CHAT_ID")
+TELEGRAM_TOKEN = os.environ.get("8087494289:AAFUUrnS8Rk7ysxTIlWCqCJTkJGXjORkyBo")
+CHAT_ID = os.environ.get("1002733061886")
 bot = Bot(token=TELEGRAM_TOKEN)
 
 def check_dexscreener():
